@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx @nestjs/cli new . --package-manager npm --language ts --skip-git)",
+      "Bash(mv README_original.md README.md)",
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "Bash(npx nest:*)",
+      "Bash(node dist/main.js)",
+      "Bash(curl -s http://localhost:3000/cep/01310100)",
+      "Bash(curl -s http://localhost:3000/cep/abc)",
+      "Bash(curl -s http://localhost:3000/cep/99999999)",
+      "Bash(kill %1)",
+      "Bash(npx vitest:*)",
+      "Bash(python -m json.tool)",
+      "Bash(curl -s -X PUT http://localhost:3000/admin/faults/viacep/error)",
+      "Bash(curl -s http://localhost:3000/cep/01001000)",
+      "Bash(find \"C:\\\\Users\\\\Pichau\\\\Desktop\\\\_\\\\teste-dev\\\\inspiracao\\\\luiz\\\\teste-dev-monest\\\\test\" -name \"*.spec.ts\" -type f -exec wc -l {} +)",
+      "Bash(npm test:*)",
+      "Bash(find /c/Users/Pichau/Desktop/_/teste-dev/inspiracao/wesley/teste-dev/src -name \"*.spec.ts\" -exec wc -l {} +)",
+      "Bash(find src:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npx oxlint:*)",
+      "Bash(npm run:*)",
+      "Bash(git add:*)"
+    ]
+  },
+  "spinnerTipsEnabled": false
+}
